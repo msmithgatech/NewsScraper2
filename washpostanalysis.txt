@@ -1,0 +1,98 @@
+<!-- 
+
+MONGO NEWS SCRAPER:  https://www.washingtonpost.com/business/technology
+
+=====  DIVS TO ANALYZE FOR HEADLINE, SUMMARY, IMAGE
+
+
+<div class="moat-trackable pb-f-theme-normal pb-f-dehydrate-false pb-f-async-false pb-feature pb-layout-item pb-f-sharebars-top-share-bar" 
+            moat-id="sharebars/top-share-bar|business" data-chain-name="no-name" data-feature-name="no-name" data-feature-id="sharebars/top-share-bar" 
+            data-pb-fingerprint="0fp0ZcNIXqI" id=""> 
+
+   <script>var TWP=window.TWP||{};TWP.Data=TWP.Data||{};TWP.Data.comment_system="coral";
+   </script> 
+
+   <style>.hideText{position:absolute;left:-10000px}
+   </style> 
+
+   <div id="top-sharebar_5229" data-pb-canonical-url="https://www.washingtonpost.com/business/technology/" data-pb-prevent-ajax="true"   
+        class=" top-sharebar-wrapper vertical-top-sharebar color-top unprocessed force-visibility">
+
+       <div class="social-tools-wrapper">
+           <span class="social-tools-primary">
+                <div class="social-tools default-desktop"> 
+                    <a class="home-share" target="_self" href="https://www.washingtonpost.com/?tid=home_link_ss"> 
+                        <div class="tool home"> 
+                            <span class="hideText">Share on Google Plus</span>
+                            <span class="fa fa-home" aria-hidden="true"></span> 
+                        </div>
+                    </a> 
+       
+                    <a onclick="var snowflakeParam=(TWP &amp;&amp; TWP.SocialTools &amp;&amp; 
+                                                    TWP.SocialTools.getSnowflake) ? 'utm_term=' + TWP.SocialTools.getSnowflake() : ''; 
+                                var shareWindow=window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwapo.st%2F2mgcepX
+                                                             %3Ftid=ss_fb%26'+snowflakeParam'','share_facebook','width=658,height=354,scrollbars=no');
+                       return false;" tabindex="_tbidx_">                         
+                       <div class="facebook tool first">
+                           <span class="hideText">Share on Facebook</span>
+                           <span class="fa fa-facebook-square"></span>
+                       </div> 
+                    </a>
+
+                    <a onclick="var snowflakeParam=(TWP &amp;&amp; TWP.SocialTools &amp;&amp; 
+                                                    TWP.SocialTools.getSnowflake) ? 'utm_term=' + TWP.SocialTools.getSnowflake() : ''; 
+                                var shareWindow=window.open('https://twitter.com/share?url=https%3A%2F%2Fwapo.st%2F2mgcepX
+                                                             %3Ftid=ss_tw%26'+snowflakeParam+'&amp;text=Microsoft%20calls%20for%20regulation%20of
+                                                             %20facial%20recognition%2C%20saying%20it%E2%80%99s%20too%20risky%20to%20leave
+                                                             %20to%20tech%20industry%20alone','share_twitter','width=550, height=350, scrollbars=no'); 
+                       return false;" tabindex="_tbidx_"> 
+                       <div class="twitter tool">
+                           <span class="hideText">Share on Twitter</span>
+                           <span class="fa fa-twitter"></span>
+                       </div>
+                    </a>
+
+                    <a onclick="var snowflakeParam=(TWP &amp;&amp; TWP.SocialTools &amp;&amp; 
+                                                    TWP.SocialTools.getSnowflake) ? 'utm_term=' + TWP.SocialTools.getSnowflake() : ''; 
+                                var shareWindow=window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwapo.st%2F2mgcepX                                                                                     %3Ftid=ss_in%26'+snowflakeParam+'&amp;title=Microsoft+calls+for+regulation+of+facial+recognition
+                                                             %2C+saying+it%E2%80%99s+too+risky+to+leave+to+tech+industry+alone',
+                                                             'share_linkedin','width=830,height=460,scrollbars=no'); 
+                       return false;" tabindex="_tbidx_"> 
+                       <div class="linkedin tool last">
+                           <span class="hideText">Share on LinkedIn</span>
+                           <span class="fa fa-linkedin"></span>
+                       </div> 
+                    </a>
+                </div>       //  END  CLASS=SOCIAL TOOLS DEFAULT DESKTOP 
+            </span>      //  END CLASS=SOCIAL TOOLS PRIMARY 
+       
+            <span class="social-tools-additional"> 
+                 <div class="social-tools ">
+                 </div> 
+            </span>
+ 
+       </div>     //  END CLASS = SOCIAL TOOLS WRAPPER 
+   </div>     //  END  ID=top-sharebar_5229 
+
+   <div class="clear">
+   </div>
+
+</div>     //  END CLASS=moat-trackable
+
+
+
+==============================
+=====  TAGS TO SCRAPE FOR
+
+story-headline
+
+     data-feature-id="sharebars/top-share-bar
+
+
+story-description
+     <p data-pb-local-content-field="summary"
+        data-bandito-blurb="true"
+     </p>
+
+   
+story-image
